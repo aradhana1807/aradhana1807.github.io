@@ -20,31 +20,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body> <header class="navigation">
-
-        <a href="index.html" class="logo">Portfolio</a>
-        <div class="topnav" onclick="toggleMenu();"> </div>
-        <ul class="navbar">
-            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu();">About</a></li>
-            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-        </ul>
-
-    </header>
-
-<script type="text/javascript">
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        });
-
-        function toggleMenu() {
-            var menuToggle = document.querySelector('.topnav');
-            var navBar = document.querySelector('.navbar');
-            menuToggle.classList.toggle('active');
-            navBar.classList.toggle('active');
-        }
-    </script>
+<body>
     <section class="d-flex flex-column justify-content-center align-items-center align-content-center" style="min-height: 100vh;background: var(--bs-dark);">
         <div>
             <h1 class="tada animated" style="color: var(--bs-light);font-family: 'Shadows Into Light', serif;text-align: center;">Aradhana Nayak</h1>
